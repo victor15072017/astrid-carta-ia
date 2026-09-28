@@ -5,7 +5,7 @@ import AndroidAwareMenuViewer from "./components/AndroidAwareMenuViewer";
 
 const MENU_PDF_URL =
   process.env.NEXT_PUBLIC_MENU_PDF_URL ||
-  "https://astridygaston.com/cartas/AG-carta-web-27.08.pdf";
+  "https://astridygaston.com/cartas/A&G_Carta_Web_ES.pdf";
 
 export default function Home() {
   const viewerUrl = `${MENU_PDF_URL}#toolbar=1&navpanes=0&view=FitH`;
